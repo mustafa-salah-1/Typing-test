@@ -1,17 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System; 
 using System.Data;
-using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Net.NetworkInformation;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.SqlClient; 
 using System.Windows.Forms;
-using static System.Net.Mime.MediaTypeNames;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar;
+using System.Data.SQLite;
 
 namespace prozha
 {
@@ -20,6 +11,23 @@ namespace prozha
         public Form1()
         {
             InitializeComponent();
+            CreateTable();
+        }
+        public string connectionString = "Data Source=typing_test.db;Version=3;";
+        private void CreateTable()
+        {
+            using (SQLiteConnection conn = new SQLiteConnection("Data Source=typing_test.db"))
+            {
+                conn.Open();
+                string sql = @"CREATE TABLE IF NOT EXISTS easy_words (
+                          Id INTEGER PRIMARY KEY AUTOINCREMENT,
+                          word TEXT NOT NULL 
+                       );";
+                using (SQLiteCommand cmd = new SQLiteCommand(sql, conn))
+                {
+                    cmd.ExecuteNonQuery();
+                }
+            }
         }
         SqlConnection connection = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\musta\\OneDrive\\Desktop\\test typing\\prozha\\words.mdf\";Integrated Security=True;Connect Timeout=30");
         private static int correct = 0;  
