@@ -2,13 +2,11 @@
 
 ## Description
 
-Typing Test is an application designed to help users improve their typing speed and accuracy. The application presents words that the user must type within a certain time limit, providing feedback based on the correctness of their input. 
+**Typing Test** is a sleek web application designed to help users sharpen their typing speed and precision. The application presents words that the user must type within a dynamic time limit, providing real-time feedback and performance metrics.
 
-This project was founded by **Mustafa Salah Mohammed**, with the goal of creating an engaging and effective tool for users to enhance their typing skills and accuracy.
+This project was founded by **Mustafa Salah Mohammed** with the goal of creating an engaging and effective tool for users to master their typing skills in a fun, competitive environment.
 
-## ناوەڕۆک
-تایپینگ تێست بەرنامەیەکی تایبەتیە کە بۆ یارمەتیدانی بەکارهێنەرەکان بەرزکردنەوەی خێرایی و دقەی نووسینیان دروست کراوە. بەرنامە وشەکان پێشکەش دەکات کە بەکارهێنەر پێویستە لە کاتی دیاری کراودا بینوسێت.
+**تایپینگ تێست** پڕۆژەیەکی کارلێکەرە کە بە مەبەستی یارمەتیدانی بەکارهێنەران بۆ بەرزکردنەوەی خێرایی و وردی (Accuracy) لە نووسیندا دروستکراوە. بەرنامەکە زنجیرە وشەیەک پێشکەش دەکات کە پێویستە لە کاتێکی دیاریکراودا بنووسرێن، لە هەمان کاتدا ئاستی سەرکەوتوویی بەکارهێنەر هەڵدەسەنگێنێت.
 
-ئەم پرۆژەیە لە لایەن **مستەفا صلاح محمد** دروستکراوە، لە کۆلێژی تەکنیکی شەقڵاوە
-
+ئەم پڕۆژەیە لە لایەن **مستەفا صلاح محمد** لە **کۆلێژی تەکنیکی شەقڵاوە** پەرەی پێدراوە، وەک هەوڵێک بۆ دابینکردنی ئامرازێکی فێرکاری سوودبەخش بۆ قوتابیان و ئارەزوومەندانی پەرەپێدانی تواناکانی نووسین.
 
